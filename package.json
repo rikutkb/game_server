@@ -1,0 +1,25 @@
+{
+  "name": "unity",
+  "version": "1.0.0",
+  "description": "game server側 https://github.com/rikutkb/game_clientのサーバー node server.jsで実行",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rikutkb/game_server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rikutkb/game_server/issues"
+  },
+  "homepage": "https://github.com/rikutkb/game_server#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "http": "0.0.0",
+    "ws": "^6.1.2"
+  }
+}
